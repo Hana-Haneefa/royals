@@ -1,157 +1,64 @@
-# Royals College - International School Web Layout
+# 🏫 Royals College - International School Official Web Portal
 
-A pixel-perfect, responsive web application layout crafted for **Royals College**, an elite international school. Built with modern web design principles using **HTML5**, **Tailwind CSS**, and **Vanilla JavaScript**.
+Welcome to the repository for **Royals College**, an elite international school layout.
 
----
-
-## 🌟 Overview
-
-This website layout serves as the official portal for Royals College, an international institution with over 95 years of educational distinction. The application layout effectively communicates the school's heritage, academic tiers, campus facilities, admissions pathway, and global accreditations in a visually rich, engaging, and compact layout.
+> 🌐 **Live Preview**: Click the link in the **About / Description** section at the top-right of this repository to launch the live site!
 
 ---
 
-## ✨ Key Features & Sections
+## 📌 About Royals College
 
-1. **Sticky Navigation Header**:
-   - Regal crest logo (`images/royalsLogo_new.jpg`) with background blending.
-   - Quick navigation links: *Contact us*, *History*, *Undergrads*, *Transportation*, *Facilities*, *Academics*, and *About us*.
-   - Mobile responsive menu drawer with smooth toggle animation.
+Founded in **1928**, **Royals College** is a premier international educational institution with over **95 years of educational distinction**. We are dedicated to providing a transformative, holistic education that nurtures intellectual curiosity, moral integrity, leadership skills, and emotional growth in every student.
 
-2. **Hero Banner**:
-   - Full-bleed aerial campus photography (`images/collegeImage.jpg`) with gradient overlay.
-   - *"95+ Years of Excellence"* badge overlay.
-   - Core headline: *"Proud Heritage, Bright Future, Tradition of Excellence"*.
-   - Prominent **ENROLL NOW** call-to-action button.
-
-3. **Welcome & Legacy Story Blocks**:
-   - Staggered two-part layout introducing the institution's values, holistic education model, and global alumni legacy.
-
-4. **History Milestone Timeline**:
-   - Interactive historical journey across key eras:
-     - **1928 - The Foundation**: Sepia-toned archival photo (`Archival 1928`).
-     - **1960 - Expansion Era**: Grayscale vintage photo (`Vintage 1960`).
-     - **1995 - Modernization**: Computer labs & auditorium expansion.
-     - **2026 - Leading Institution**: Sustainable campus & AI labs.
-
-5. **Facilities Showcase ("What We Provide For You?")**:
-   - Asymmetric grid displaying key student services with overlay badges:
-     - 🚌 **Island wide Transportation Service**: Shuttle bus fleet details.
-     - 🎓 **Quality Staff**: World-class faculty & teaching environment.
-     - 🏆 **Sports Complex**: State-of-the-art athletic grounds and courts.
-
-6. **Academic Tiers ("We Teach To Whom?")**:
-   - 3 interactive student tier cards:
-     - **Primary School** (Age 6 - 10)
-     - **Secondary School - Junior** (Age 11 - 13)
-     - **Secondary School - Senior** (Age 14 - 18)
-
-7. **Graduation & Celebration Banner ("What We Celebrate?")**:
-   - Graduation story feature with diploma photo (`images/events.jpg`).
-   - Honor medals and certificate thumbnail previews (`images/medal.jpg`, `images/degree.jpg`).
-
-8. **News & Events**:
-   - Grid layout featuring past achievement spotlights (e.g., *Junior Chess Champion 2023*) alongside yellow *Upcoming* event cards.
-
-9. **Admissions Pathway & Global Accreditation**:
-   - Primary **Enroll Now** action trigger with red step-by-step admissions link.
-   - Accreditation logos row: British Council, University of Cambridge, Pearson, Tissot, AISL.
-
-10. **Multi-Column Footer**:
-    - Complete contact details for **Colombo**, **Kandy**, and **Galle** campuses.
-    - Social media icon integrations (Facebook, Instagram, YouTube).
-    - Bottom gold copyright bar (`royals college. All right reserved - 2024`).
-
-11. **Admissions Inquiry Modal**:
-    - Interactive modal dialog collecting student name, parent email, phone number, and grade level.
+Our modern campus environment combines historic heritage with state-of-the-art facilities, AI & robotics laboratories, expansive athletic complexes, and world-class faculty.
 
 ---
 
-## 🛠️ Technology Stack
+## 🎯 Target Educational Programs
 
-- **Markup**: HTML5 (Semantic Web Standards)
-- **Styling**: Tailwind CSS (Utility-First Framework via CDN)
-- **Custom CSS**: CSS3 (Google Fonts - *Plus Jakarta Sans*, Glassmorphism, Custom Scrollbars)
-- **Logic / Interactivity**: Vanilla JavaScript (ES6+)
-- **Icons**: FontAwesome 6.4.0
+Royals College caters to students across three primary academic stages:
 
----
-
-## 📁 Project Structure
-
-```text
-royals/
-├── index.html        # Main HTML web page containing all 10 layout sections
-├── styles.css        # Custom CSS rules, fonts, and blend modes
-├── script.js        # JavaScript interactivity (scroll shadows, modal, nav toggle)
-├── README.md         # Documentation & layout guide
-└── images/           # High-resolution image assets
-    ├── royalsLogo_new.jpg
-    ├── bus.jpg
-    ├── chess champian.jpg
-    ├── collegeImage.jpg
-    ├── degree.jpg
-    ├── events.jpg
-    ├── ground.jpg
-    ├── high school.jpg
-    ├── lecuring.jpg
-    ├── medal.jpg
-    ├── oldroyals.jpg
-    ├── primary.jpg
-    ├── royalsColledge.jpg
-    ├── royalsHistory.jpg
-    ├── secondary.jpg
-    ├── instagram-brands-solid.png
-    ├── square-facebook-brands-solid.png
-    └── youtube-brands-solid.png
-```
+- 🎨 **Primary School (Ages 6 - 10)**: Foundational learning, creative exploration, and character building.
+- 📚 **Junior Secondary (Ages 11 - 13)**: Critical thinking, STEM exploration, and holistic growth.
+- 🎓 **Senior Secondary (Ages 14 - 18)**: Advanced academic preparation, global accreditations, and university readiness.
 
 ---
 
-## 🚀 How to Run & Deploy
+## 🏫 Campus Facilities & Student Services
 
-### Option 1: Live Deployment on GitHub Pages (Recommended)
-
-Follow these steps to deploy the website live for free on **GitHub Pages**:
-
-1. **Initialize Git & Commit Files**:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit for Royals College layout"
-   ```
-
-2. **Connect to your GitHub Repository**:
-   ```bash
-   git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-3. **Enable GitHub Pages**:
-   - Go to your repository on GitHub and click **Settings**.
-   - Navigate to **Pages** in the left sidebar menu.
-   - Under **Build and deployment** > **Source**, select **Deploy from a branch**.
-   - Set the branch to `main` and folder to `/ (root)`.
-   - Click **Save**.
-
-4. **Access your Live Site**:
-   After a minute, GitHub will publish your site live at:
-   `https://<your-username>.github.io/<your-repo-name>/`
+- 🚌 **Island-wide Shuttle Service**: Dedicated inbound and outbound transportation connecting students safely across all regions.
+- 👨‍🏫 **Quality Faculty & Staff**: High-end educators providing a nurturing, high-quality learning environment.
+- ⚽ **State-of-the-Art Sports Complex**: Athletic grounds, multi-purpose courts, and modern physical education facilities.
 
 ---
 
-### Option 2: Local HTTP Server (Node.js)
-If serving locally with Node.js:
-```bash
-npx http-server . -p 8080
-```
-Then open `http://localhost:8080` in your web browser.
+## 🏆 Global Affiliations & Accreditations
+
+Royals College is proud to partner with leading international educational bodies:
+- **British Council**
+- **University of Cambridge**
+- **Pearson**
+- **Tissot**
+- **AISL**
 
 ---
 
-### Option 3: Direct File Opening
-Double-click `index.html` or drag it into any modern web browser to preview instantly.
+## 🏛️ Campus Locations
+
+- **Colombo Campus**: Rajagiriya Road, Rajagiriya. | Tel: +94 11 234 5678 / +94 77 123 4567
+- **Kandy Campus**: Peradeniya Road, Kandy. | Tel: +94 81 234 5678 / +94 77 987 6543
+- **Galle Campus**: Matara Road, Galle. | Tel: +94 91 234 5678 / +94 77 456 7890
 
 ---
 
-*Royals College International School Web Layout - Designed & Developed for Excellence.*
+## ✨ Website Features & Design Highlights
+
+- **Hero Banner**: Full-width campus imagery with *"95+ Years of Excellence"* badge and immediate enrollment CTA.
+- **Historical Timeline (1928 - 2026)**: Milestone cards with vintage archival photos showcasing the evolution from a community college to a global leading institution.
+- **Interactive Admissions Modal**: Quick inquiry form allowing parents to select grade levels and submit student information.
+- **Responsive Navigation**: Sticky header with crest emblem and mobile navigation drawer.
+- **News & Events**: Spotlights student achievements like the *Junior Chess Champion 2023* alongside upcoming event previews.
+
+---
+
+*Royals College International School Web Portal - Tradition of Excellence, Bright Future.*
