@@ -107,19 +107,50 @@ royals/
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run & Deploy
 
-Simply open `index.html` in any modern web browser:
+### Option 1: Live Deployment on GitHub Pages (Recommended)
 
-### Option 1: Direct File Opening
-Double-click `index.html` or open it with your browser of choice.
+Follow these steps to deploy the website live for free on **GitHub Pages**:
+
+1. **Initialize Git & Commit Files**:
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit for Royals College layout"
+   ```
+
+2. **Connect to your GitHub Repository**:
+   ```bash
+   git remote add origin https://github.com/<your-username>/<your-repo-name>.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+3. **Enable GitHub Pages**:
+   - Go to your repository on GitHub and click **Settings**.
+   - Navigate to **Pages** in the left sidebar menu.
+   - Under **Build and deployment** > **Source**, select **Deploy from a branch**.
+   - Set the branch to `main` and folder to `/ (root)`.
+   - Click **Save**.
+
+4. **Access your Live Site**:
+   After a minute, GitHub will publish your site live at:
+   `https://<your-username>.github.io/<your-repo-name>/`
+
+---
 
 ### Option 2: Local HTTP Server (Node.js)
-If using Node.js, serve the folder locally:
+If serving locally with Node.js:
 ```bash
 npx http-server . -p 8080
 ```
-Then navigate to `http://localhost:8080` in your browser.
+Then open `http://localhost:8080` in your web browser.
+
+---
+
+### Option 3: Direct File Opening
+Double-click `index.html` or drag it into any modern web browser to preview instantly.
 
 ---
 
