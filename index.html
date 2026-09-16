@@ -1,0 +1,1254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Royals College - Proud Heritage, Bright Future, Tradition of Excellence
+    </title>
+    <meta
+      name="description"
+      content="Royals College offers world-class primary, secondary, and high school education with state-of-the-art facilities and a tradition of excellence."
+    />
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              royalsNavy: "#0B1536",
+              royalsGold: "#FACC15",
+              royalsDarkHeading: "#1B2559",
+              royalsLightBg: "#F8FAFC",
+            },
+            fontFamily: {
+              sans: ["Plus Jakarta Sans", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body
+    class="bg-white text-slate-800 antialiased selection:bg-yellow-300 selection:text-black"
+  >
+    <!-- ==================== HEADER / NAVBAR ==================== -->
+    <header
+      id="navbar"
+      class="sticky top-0 z-50 bg-white transition-all duration-300 border-b border-slate-100"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between"
+      >
+        <!-- Logo -->
+        <a href="#" class="flex items-center space-x-3 group">
+          <img
+            src="images/royalsLogo_new.jpg"
+            alt="Royals College Crest Logo"
+            class="h-14 md:h-16 w-auto object-contain mix-blend-multiply transition-transform group-hover:scale-105"
+          />
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center space-x-8">
+          <a
+            href="#contact"
+            class="text-slate-700 hover:text-royalsNavy font-semibold text-sm transition-colors"
+            >Contact us</a
+          >
+          <a
+            href="#history"
+            class="text-slate-700 hover:text-royalsNavy font-semibold text-sm transition-colors"
+            >History</a
+          >
+          <a
+            href="#undergrads"
+            class="text-slate-700 hover:text-royalsNavy font-semibold text-sm transition-colors"
+            >Undergrads</a
+          >
+          <a
+            href="#transportation"
+            class="text-slate-700 hover:text-royalsNavy font-semibold text-sm transition-colors"
+            >Transportation</a
+          >
+          <a
+            href="#facilities"
+            class="text-slate-700 hover:text-royalsNavy font-semibold text-sm transition-colors"
+            >Facilities</a
+          >
+          <a
+            href="#academics"
+            class="text-slate-700 hover:text-royalsNavy font-semibold text-sm transition-colors"
+            >Academics</a
+          >
+          <a
+            href="#about"
+            class="text-slate-700 hover:text-royalsNavy font-semibold text-sm transition-colors"
+            >About us</a
+          >
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <div class="lg:hidden flex items-center">
+          <button
+            id="menu-btn"
+            class="p-2 text-slate-700 hover:text-royalsNavy focus:outline-none"
+          >
+            <i class="fa-solid fa-bars text-2xl"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Nav Dropdown -->
+      <div
+        id="mobile-menu"
+        class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3"
+      >
+        <a
+          href="#contact"
+          class="block text-slate-700 hover:text-royalsNavy font-semibold text-base py-1"
+          >Contact us</a
+        >
+        <a
+          href="#history"
+          class="block text-slate-700 hover:text-royalsNavy font-semibold text-base py-1"
+          >History</a
+        >
+        <a
+          href="#undergrads"
+          class="block text-slate-700 hover:text-royalsNavy font-semibold text-base py-1"
+          >Undergrads</a
+        >
+        <a
+          href="#transportation"
+          class="block text-slate-700 hover:text-royalsNavy font-semibold text-base py-1"
+          >Transportation</a
+        >
+        <a
+          href="#facilities"
+          class="block text-slate-700 hover:text-royalsNavy font-semibold text-base py-1"
+          >Facilities</a
+        >
+        <a
+          href="#academics"
+          class="block text-slate-700 hover:text-royalsNavy font-semibold text-base py-1"
+          >Academics</a
+        >
+        <a
+          href="#about"
+          class="block text-slate-700 hover:text-royalsNavy font-semibold text-base py-1"
+          >About us</a
+        >
+      </div>
+    </header>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section
+      class="relative w-full h-[550px] md:h-[640px] lg:h-[700px] bg-slate-900 overflow-hidden"
+    >
+      <!-- Background Image -->
+      <img
+        src="images/collegeImage.jpg"
+        alt="Royals College Campus View"
+        class="absolute inset-0 w-full h-full object-cover object-center filter brightness-90"
+      />
+
+      <!-- Gradient Overlay -->
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/40 to-transparent"
+      ></div>
+
+      <!-- Hero Content -->
+      <div
+        class="relative max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8 flex items-center"
+      >
+        <div class="max-w-2xl text-white space-y-6">
+          <!-- Excellence Badge -->
+          <div class="inline-flex flex-col">
+            <span
+              class="text-3xl sm:text-4xl font-extrabold text-white leading-none"
+              >95+</span
+            >
+            <span
+              class="text-xs sm:text-sm font-medium tracking-wider text-slate-200 uppercase"
+              >years of Excellence</span
+            >
+          </div>
+
+          <!-- Main Headline -->
+          <h1
+            class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight"
+          >
+            Proud Heritage,<br />
+            Bright Future,<br />
+            Tradition of Excellence
+          </h1>
+
+          <!-- CTA Button -->
+          <div class="pt-4">
+            <button
+              class="enroll-trigger bg-royalsGold hover:bg-yellow-400 text-black font-extrabold px-8 py-3.5 rounded shadow-xl uppercase tracking-wider text-sm transition-all duration-300 transform hover:-translate-y-0.5"
+            >
+              ENROLL NOW
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WELCOME TO ROYALS COLLEGE ==================== -->
+    <section id="about" class="py-10 md:py-14 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+        <!-- Section Main Title -->
+        <h2
+          class="text-3xl md:text-4xl font-extrabold text-royalsDarkHeading text-left tracking-tight"
+        >
+          Welcome to Royals College
+        </h2>
+
+        <!-- Content Block 1: Left Image, Right Text -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center"
+        >
+          <!-- Left Image -->
+          <div class="md:col-span-5 flex justify-start">
+            <div
+              class="relative group rounded-xl overflow-hidden shadow-lg border border-slate-100 max-w-md w-full"
+            >
+              <img
+                src="images/collegeImage.jpg"
+                alt="Royals College Campus aerial view"
+                class="w-full h-72 md:h-80 object-cover transform group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+          </div>
+
+          <!-- Right Text Paragraph -->
+          <div class="md:col-span-7 space-y-4">
+            <p
+              class="text-slate-600 text-sm md:text-base leading-relaxed text-justify"
+            >
+              Royals College is dedicated to providing an exceptional education
+              that nurtures the intellectual, moral, and emotional growth of
+              every student. Our state-of-the-art facilities, world-class
+              faculty, and rich academic history create an inspiring environment
+              where students excel academically, develop strong character, and
+              prepare to become visionary leaders who shape a brighter future
+              for all.
+            </p>
+            <p
+              class="text-slate-600 text-sm md:text-base leading-relaxed text-justify"
+            >
+              With over 95 years of educational distinction, we empower our
+              students with critical thinking, ethical values, and a passion for
+              lifelong learning.
+            </p>
+          </div>
+        </div>
+
+        <!-- Content Block 2: Left Text ("A Legacy of Excellence"), Right Image -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center pt-8"
+        >
+          <!-- Left Text & Subheading -->
+          <div class="md:col-span-7 order-2 md:order-1 space-y-4">
+            <h3
+              class="text-2xl md:text-3xl font-extrabold text-royalsDarkHeading tracking-tight"
+            >
+              A Legacy of Excellence
+            </h3>
+            <p
+              class="text-slate-600 text-sm md:text-base leading-relaxed text-justify"
+            >
+              Founded on principles of integrity, intellectual inquiry, and
+              service to society, Royals College has cultivated generations of
+              scholars, innovators, and leaders. Our commitment to holistic
+              education extends beyond the classroom, fostering creative
+              expression, athletic mastery, and community involvement.
+            </p>
+            <p
+              class="text-slate-600 text-sm md:text-base leading-relaxed text-justify"
+            >
+              Our global alumni network continues to make profound contributions
+              across medicine, engineering, business, law, and the arts
+              worldwide.
+            </p>
+          </div>
+
+          <!-- Right Image -->
+          <div class="md:col-span-5 order-1 md:order-2 flex justify-end">
+            <div
+              class="relative group rounded-xl overflow-hidden shadow-lg border border-slate-100 max-w-md w-full"
+            >
+              <img
+                src="images/royalsColledge.jpg"
+                alt="Royals College Main Building Facade"
+                class="w-full h-72 md:h-80 object-cover transform group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== HISTORY / TIMELINE BANNER ==================== -->
+        <div id="history" class="pt-8">
+          <div
+            class="bg-[#DFE4EA] rounded-3xl p-6 sm:p-8 md:p-10 shadow-sm border border-slate-200"
+          >
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              <!-- Timeline Item 1: 1928 Foundation -->
+              <div
+                class="bg-white/80 backdrop-blur-sm rounded-xl p-4 flex flex-col justify-between space-y-4 border border-amber-200/80 shadow-sm hover:shadow-md transition-shadow"
+              >
+                <div class="space-y-3">
+                  <div
+                    class="h-40 rounded-lg overflow-hidden relative group border border-amber-300/50 shadow-inner"
+                  >
+                    <img
+                      src="images/oldroyals.jpg"
+                      alt="1928 Foundation Vintage Archival Photo"
+                      class="w-full h-full object-cover filter sepia-[0.65] contrast-125 brightness-90 group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div
+                      class="absolute inset-0 bg-gradient-to-t from-amber-950/40 via-transparent to-transparent"
+                    ></div>
+                    <span
+                      class="absolute top-2 left-2 bg-amber-900/80 text-amber-200 font-mono text-[10px] px-2 py-0.5 rounded tracking-widest uppercase"
+                      >Archival 1928</span
+                    >
+                  </div>
+                  <div class="text-center">
+                    <h4
+                      class="font-extrabold text-slate-800 text-xs sm:text-sm tracking-wider uppercase"
+                    >
+                      1928 - THE FOUNDATION
+                    </h4>
+                    <div class="mt-2 text-xs text-slate-600 space-y-1">
+                      <p class="font-bold text-amber-900">EST. 1928</p>
+                      <p>ESTABLISHED AS A SMALL</p>
+                      <p>COMMUNITY COLLEGE</p>
+                      <p>TRANSFORMING LIVES</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center pt-2">
+                  <span
+                    class="inline-block bg-amber-900 text-amber-100 font-bold text-xs px-4 py-1 rounded-full shadow-sm"
+                    >1928</span
+                  >
+                </div>
+              </div>
+
+              <!-- Timeline Item 2: 1960 Expansion Era -->
+              <div
+                class="bg-white/80 backdrop-blur-sm rounded-xl p-4 flex flex-col justify-between space-y-4 border border-slate-300/80 shadow-sm hover:shadow-md transition-shadow"
+              >
+                <div class="space-y-3">
+                  <div
+                    class="h-40 rounded-lg overflow-hidden relative group border border-slate-300 shadow-inner"
+                  >
+                    <img
+                      src="images/royalsColledge.jpg"
+                      alt="1960 Expansion Era Classic Photo"
+                      class="w-full h-full object-cover filter grayscale-[0.85] contrast-115 brightness-95 group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div
+                      class="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent"
+                    ></div>
+                    <span
+                      class="absolute top-2 left-2 bg-slate-900/80 text-slate-200 font-mono text-[10px] px-2 py-0.5 rounded tracking-widest uppercase"
+                      >Vintage 1960</span
+                    >
+                  </div>
+                  <div class="text-center">
+                    <h4
+                      class="font-extrabold text-slate-800 text-xs sm:text-sm tracking-wider uppercase"
+                    >
+                      1960 - EXPANSION ERA
+                    </h4>
+                    <div class="mt-2 text-xs text-slate-600 space-y-1">
+                      <p class="font-bold text-slate-800">SCIENCE LABS</p>
+                      <p>SPORTS COMPLEX</p>
+                      <p>MAIN LIBRARY</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center pt-2">
+                  <span
+                    class="inline-block bg-royalsNavy text-white font-bold text-xs px-4 py-1 rounded-full shadow-sm"
+                    >1960</span
+                  >
+                </div>
+              </div>
+
+              <!-- Timeline Item 3 -->
+              <div
+                class="bg-white/70 backdrop-blur-sm rounded-xl p-4 flex flex-col justify-between space-y-4 border border-slate-200/60 shadow-sm hover:shadow-md transition-shadow"
+              >
+                <div class="space-y-3">
+                  <div class="h-40 rounded-lg overflow-hidden">
+                    <img
+                      src="images/ground.jpg"
+                      alt="1995 Modernization"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div class="text-center">
+                    <h4
+                      class="font-extrabold text-slate-800 text-xs sm:text-sm tracking-wider uppercase"
+                    >
+                      1995 - MODERNIZATION
+                    </h4>
+                    <div class="mt-2 text-xs text-slate-600 space-y-1">
+                      <p>COMPUTER LABS</p>
+                      <p>LIBRARY</p>
+                      <p>SPORTS COMPLEX</p>
+                      <p>AUDITORIUM</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center pt-2">
+                  <span
+                    class="inline-block bg-royalsNavy text-white font-bold text-xs px-4 py-1 rounded-full"
+                    >1995</span
+                  >
+                </div>
+              </div>
+
+              <!-- Timeline Item 4 -->
+              <div
+                class="bg-white/70 backdrop-blur-sm rounded-xl p-4 flex flex-col justify-between space-y-4 border border-slate-200/60 shadow-sm hover:shadow-md transition-shadow"
+              >
+                <div class="space-y-3">
+                  <div class="h-40 rounded-lg overflow-hidden">
+                    <img
+                      src="images/collegeImage.jpg"
+                      alt="2026 Leading Institution"
+                      class="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div class="text-center">
+                    <h4
+                      class="font-extrabold text-slate-800 text-xs sm:text-sm tracking-wider uppercase"
+                    >
+                      2026 - LEADING INSTITUTION
+                    </h4>
+                    <div class="mt-2 text-xs text-slate-600 space-y-1">
+                      <p>GLOBAL ACCREDITATIONS</p>
+                      <p>AI & ROBOTICS LABS</p>
+                      <p>SUSTAINABLE CAMPUS</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center pt-2">
+                  <span
+                    class="inline-block bg-royalsNavy text-white font-bold text-xs px-4 py-1 rounded-full"
+                    >2026</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WHAT WE PROVIDE FOR YOU? ==================== -->
+    <section
+      id="transportation"
+      class="py-10 md:py-14 bg-slate-50 border-t border-b border-slate-100"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+        <!-- Section Title -->
+        <h2
+          class="text-3xl md:text-4xl font-extrabold text-royalsDarkHeading text-center tracking-tight"
+        >
+          What we provide for you?
+        </h2>
+
+        <!-- Grid Layout -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+          <!-- Left Feature Card: Island wide Transportation Service -->
+          <div
+            class="lg:col-span-7 relative rounded-2xl overflow-hidden shadow-md group min-h-[380px] flex flex-col justify-between"
+          >
+            <img
+              src="images/bus.jpg"
+              alt="Royals College Island wide Transportation Shuttle Bus"
+              class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 filter brightness-90"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent"
+            ></div>
+
+            <!-- Top Badge Overlay -->
+            <div class="relative z-10 p-6 flex justify-end">
+              <div
+                class="bg-red-600 text-white font-extrabold px-4 py-2 rounded shadow-md text-right text-sm leading-tight"
+              >
+                Island wide<br />
+                <span class="text-xs font-normal uppercase"
+                  >Transportation Service</span
+                >
+              </div>
+            </div>
+
+            <!-- Bottom Banner Overlay Text -->
+            <div class="relative z-10 p-6 sm:p-8 text-white space-y-2">
+              <h3
+                class="text-2xl sm:text-3xl font-extrabold tracking-wider text-yellow-300"
+              >
+                SHUTTLE - INBOUND
+              </h3>
+              <p
+                class="text-xs sm:text-sm text-slate-200 leading-snug max-w-lg"
+              >
+                ISLAND WIDE TRANSPORTATION SERVICE FOR STUDENTS & STAFF.
+                CONNECTING ALL REGIONS WITH SAFE, RELIABLE AND TIMELY COMMUTES
+                EVERY DAY.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Stacked Cards -->
+          <div class="lg:col-span-5 space-y-6 flex flex-col justify-between">
+            <!-- Top Right Card: Quality Staff -->
+            <div
+              id="facilities"
+              class="relative rounded-2xl overflow-hidden shadow-md group h-52 sm:h-56"
+            >
+              <img
+                src="images/lecuring.jpg"
+                alt="Quality staff & teachers classroom lecturing"
+                class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+              />
+              <div class="absolute inset-0 bg-slate-950/40"></div>
+
+              <!-- Badge -->
+              <div class="absolute top-4 right-4 z-10">
+                <span
+                  class="bg-white text-slate-900 font-extrabold text-xs px-3 py-1 rounded shadow-sm"
+                >
+                  Quality staff
+                </span>
+              </div>
+
+              <!-- Content -->
+              <div
+                class="absolute bottom-0 left-0 right-0 p-5 text-white bg-gradient-to-t from-black/80 to-transparent"
+              >
+                <p class="text-xs sm:text-sm font-medium leading-snug">
+                  Equipped with high end teachers and staff to provide your
+                  child with high quality learning environment.
+                </p>
+              </div>
+            </div>
+
+            <!-- Bottom Right Card: Campus Sports & Grounds -->
+            <div
+              class="relative rounded-2xl overflow-hidden shadow-md group h-52 sm:h-56"
+            >
+              <img
+                src="images/ground.jpg"
+                alt="Royals College Athletic Sports Ground and Complex"
+                class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+              />
+              <div class="absolute inset-0 bg-slate-950/30"></div>
+
+              <!-- Badge -->
+              <div class="absolute top-4 right-4 z-10">
+                <span
+                  class="bg-white text-slate-900 font-extrabold text-xs px-3 py-1 rounded shadow-sm"
+                >
+                  Sports Complex
+                </span>
+              </div>
+
+              <div
+                class="absolute bottom-0 left-0 right-0 p-5 text-white bg-gradient-to-t from-black/80 to-transparent"
+              >
+                <p class="text-xs sm:text-sm font-medium leading-snug">
+                  State of the art sports complex, athletic ground, and
+                  multi-purpose courts designed for physical excellence.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WE TEACH TO WHOM? ==================== -->
+    <section id="academics" class="py-10 md:py-14 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+        <!-- Section Title -->
+        <h2
+          class="text-3xl md:text-4xl font-extrabold text-royalsDarkHeading text-center tracking-tight"
+        >
+          We teach to whom?
+        </h2>
+
+        <!-- 3 Columns Card Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Card 1: Primary School Students -->
+          <div
+            class="relative rounded-2xl overflow-hidden shadow-lg group h-80 sm:h-96 flex items-end"
+          >
+            <img
+              src="images/primary.jpg"
+              alt="Primary School Students Age 6 to 10"
+              class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 filter brightness-90"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent"
+            ></div>
+
+            <div
+              class="relative z-10 p-6 w-full flex flex-col justify-end space-y-4"
+            >
+              <h3
+                class="text-xl sm:text-2xl font-extrabold text-white text-center leading-tight"
+              >
+                Primary School<br />
+                Students<br />
+                <span class="text-sm font-semibold text-slate-200"
+                  >(Age 6 - 10)</span
+                >
+              </h3>
+              <div class="text-right">
+                <a
+                  href="#contact"
+                  class="inline-flex items-center text-royalsGold font-bold text-sm hover:underline"
+                >
+                  Learn More
+                  <i class="fa-solid fa-chevron-right ml-1 text-xs"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Secondary School Students (Age 11 - 13) -->
+          <div
+            class="relative rounded-2xl overflow-hidden shadow-lg group h-80 sm:h-96 flex items-end"
+          >
+            <img
+              src="images/secondary.jpg"
+              alt="Secondary School Students Age 11 to 13"
+              class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 filter brightness-90"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent"
+            ></div>
+
+            <div
+              class="relative z-10 p-6 w-full flex flex-col justify-end space-y-4"
+            >
+              <h3
+                class="text-xl sm:text-2xl font-extrabold text-white text-center leading-tight"
+              >
+                Secondary School<br />
+                Students<br />
+                <span class="text-sm font-semibold text-slate-200"
+                  >(Age 11 - 13)</span
+                >
+              </h3>
+              <div class="text-right">
+                <a
+                  href="#contact"
+                  class="inline-flex items-center text-royalsGold font-bold text-sm hover:underline"
+                >
+                  Learn More
+                  <i class="fa-solid fa-chevron-right ml-1 text-xs"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Secondary School Students (Age 14 - 18) -->
+          <div
+            class="relative rounded-2xl overflow-hidden shadow-lg group h-80 sm:h-96 flex items-end"
+          >
+            <img
+              src="images/high school.jpg"
+              alt="Secondary School Students Age 14 to 18"
+              class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 filter brightness-90"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-transparent"
+            ></div>
+
+            <div
+              class="relative z-10 p-6 w-full flex flex-col justify-end space-y-4"
+            >
+              <h3
+                class="text-xl sm:text-2xl font-extrabold text-white text-center leading-tight"
+              >
+                Secondary School<br />
+                Students<br />
+                <span class="text-sm font-semibold text-slate-200"
+                  >(Age 14 - 18)</span
+                >
+              </h3>
+              <div class="text-right">
+                <a
+                  href="#contact"
+                  class="inline-flex items-center text-royalsGold font-bold text-sm hover:underline"
+                >
+                  Learn More
+                  <i class="fa-solid fa-chevron-right ml-1 text-xs"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WHAT WE CELEBRATE? ==================== -->
+    <section
+      class="py-10 md:py-14 bg-slate-50 border-t border-b border-slate-100"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+        <!-- Section Title -->
+        <h2
+          class="text-3xl md:text-4xl font-extrabold text-royalsDarkHeading text-center tracking-tight"
+        >
+          What we celebrate?
+        </h2>
+
+        <!-- Content Split Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <!-- Left Side: Large Graduation Event Photo -->
+          <div class="lg:col-span-5">
+            <div
+              class="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 group"
+            >
+              <img
+                src="images/events.jpg"
+                alt="Royals College Student Graduation Ceremony"
+                class="w-full h-80 sm:h-[420px] object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+          </div>
+
+          <!-- Right Side: Story & 3 Thumbnails -->
+          <div class="lg:col-span-7 space-y-6 lg:pl-6">
+            <h3
+              class="text-2xl sm:text-3xl font-extrabold text-royalsDarkHeading"
+            >
+              Your graduation!
+            </h3>
+            <p
+              class="text-slate-600 text-sm sm:text-base leading-relaxed text-justify"
+            >
+              Every year, when the men and women of Royals College graduate,
+              they step out into the world with confidence, equipped with
+              academic excellence, leadership skills, and ethical values to
+              achieve their highest potential and make meaningful contributions
+              to society.
+            </p>
+
+            <!-- 3 Round/Square Thumbnail Cards -->
+            <div class="grid grid-cols-3 gap-4 pt-4">
+              <!-- Thumbnail 1 -->
+              <div
+                class="rounded-xl overflow-hidden shadow-md border border-slate-200 group h-24 sm:h-28"
+              >
+                <img
+                  src="images/medal.jpg"
+                  alt="Honor Medal"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <!-- Thumbnail 2 -->
+              <div
+                class="rounded-xl overflow-hidden shadow-md border border-slate-200 group h-24 sm:h-28"
+              >
+                <img
+                  src="images/degree.jpg"
+                  alt="Degree Diploma Certificate"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <!-- Thumbnail 3 -->
+              <div
+                class="rounded-xl overflow-hidden shadow-md border border-slate-200 group h-24 sm:h-28"
+              >
+                <img
+                  src="images/medal.jpg"
+                  alt="Gold Medal Award"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== NEWS & EVENTS ==================== -->
+    <section class="py-10 md:py-14 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+        <!-- Section Title -->
+        <h2
+          class="text-3xl md:text-4xl font-extrabold text-royalsDarkHeading text-center tracking-tight"
+        >
+          News & Events
+        </h2>
+
+        <!-- 4 Cards Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Card 1: Past Event Winner -->
+          <div
+            class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-md flex flex-col justify-between group hover:shadow-lg transition-shadow"
+          >
+            <div>
+              <div
+                class="p-3 text-center bg-slate-50 border-b border-slate-100"
+              >
+                <span
+                  class="text-xs font-bold text-slate-600 uppercase tracking-wider"
+                  >Past Events</span
+                >
+              </div>
+              <div class="h-56 overflow-hidden">
+                <img
+                  src="images/chess champian.jpg"
+                  alt="Junior Chess Champion 2023"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+            <div class="p-4 text-center">
+              <h3 class="font-extrabold text-slate-800 text-sm sm:text-base">
+                Junior Chess Champion 2023
+              </h3>
+            </div>
+          </div>
+
+          <!-- Card 2: Upcoming Placeholder -->
+          <div
+            class="bg-[#FEF9C3] rounded-2xl border border-yellow-200 shadow-sm flex items-center justify-center p-8 h-72 hover:shadow-md transition-shadow"
+          >
+            <span class="font-semibold text-amber-800 text-base sm:text-lg"
+              >Upcoming</span
+            >
+          </div>
+
+          <!-- Card 3: Upcoming Placeholder -->
+          <div
+            class="bg-[#FEF9C3] rounded-2xl border border-yellow-200 shadow-sm flex items-center justify-center p-8 h-72 hover:shadow-md transition-shadow"
+          >
+            <span class="font-semibold text-amber-800 text-base sm:text-lg"
+              >Upcoming</span
+            >
+          </div>
+
+          <!-- Card 4: Upcoming Placeholder -->
+          <div
+            class="bg-[#FEF9C3] rounded-2xl border border-yellow-200 shadow-sm flex items-center justify-center p-8 h-72 hover:shadow-md transition-shadow"
+          >
+            <span class="font-semibold text-amber-800 text-base sm:text-lg"
+              >Upcoming</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HOW TO BECOME PART OF ROYALS? ==================== -->
+    <section
+      id="undergrads"
+      class="py-10 md:py-14 bg-slate-50 border-t border-slate-100"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+        <!-- Section Title -->
+        <h2
+          class="text-3xl md:text-4xl font-extrabold text-royalsDarkHeading tracking-tight"
+        >
+          How to become part of Royals?
+        </h2>
+
+        <!-- Enroll Button & Red Subtitle Link -->
+        <div class="space-y-3">
+          <div>
+            <button
+              class="enroll-trigger bg-royalsNavy hover:bg-slate-800 text-white font-extrabold text-lg sm:text-xl px-12 py-4 rounded-md shadow-lg transition-all duration-300 transform hover:-translate-y-0.5"
+            >
+              Enroll Now
+            </button>
+          </div>
+          <p
+            class="text-red-600 font-bold text-xs sm:text-sm tracking-wide cursor-pointer hover:underline uppercase inline-block enroll-trigger"
+          >
+            Find admissions step here!
+          </p>
+        </div>
+
+        <!-- Accredited Partner Logos Row -->
+        <div class="pt-8 border-t border-slate-200/80">
+          <div
+            class="flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:gap-16 opacity-85"
+          >
+            <!-- British Council -->
+            <div class="flex items-center space-x-2 partner-logo">
+              <div class="grid grid-cols-2 gap-1 w-6 h-6">
+                <div class="bg-slate-800 rounded-full"></div>
+                <div class="bg-slate-800 rounded-full"></div>
+                <div class="bg-slate-800 rounded-full"></div>
+                <div class="bg-slate-800 rounded-full"></div>
+              </div>
+              <span
+                class="font-bold text-slate-800 text-sm md:text-base tracking-tight"
+                >BRITISH COUNCIL</span
+              >
+            </div>
+
+            <!-- University of Cambridge -->
+            <div class="flex items-center space-x-2 partner-logo">
+              <i class="fa-solid fa-graduation-cap text-slate-800 text-xl"></i>
+              <span
+                class="font-bold text-slate-800 text-sm md:text-base tracking-tight"
+                >UNIVERSITY OF CAMBRIDGE</span
+              >
+            </div>
+
+            <!-- Pearson -->
+            <div class="flex items-center space-x-2 partner-logo">
+              <div
+                class="w-5 h-5 rounded-full border-2 border-cyan-600 flex items-center justify-center"
+              >
+                <div class="w-2 h-2 bg-cyan-600 rounded-full"></div>
+              </div>
+              <span class="font-extrabold text-slate-900 text-base md:text-lg"
+                >Pearson</span
+              >
+            </div>
+
+            <!-- Tissot -->
+            <div class="flex items-center space-x-1.5 partner-logo">
+              <span class="bg-red-600 text-white font-bold text-xs px-1"
+                >T+</span
+              >
+              <span
+                class="font-black text-slate-900 text-base md:text-lg tracking-widest uppercase"
+                >TISSOT</span
+              >
+            </div>
+
+            <!-- AISL -->
+            <div class="partner-logo">
+              <span
+                class="font-extrabold text-blue-900 text-lg md:text-xl tracking-wider"
+                >AISL</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer id="contact" class="bg-royalsNavy text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12">
+          <!-- Left Column: Logo & Social Icons -->
+          <div class="md:col-span-3 space-y-5">
+            <div class="flex items-center space-x-3">
+              <div class="bg-white rounded-xl p-1 shadow-md">
+                <img
+                  src="images/royalsLogo_new.jpg"
+                  alt="Royals College Emblem"
+                  class="h-12 w-auto object-contain"
+                />
+              </div>
+              <div>
+                <span
+                  class="block font-black text-white text-base tracking-wider"
+                  >ROYALS COLLEGE</span
+                >
+                <span
+                  class="block text-[10px] text-slate-300 tracking-widest uppercase"
+                  >Est. 1928</span
+                >
+              </div>
+            </div>
+            <div class="flex items-center space-x-4 pt-1">
+              <!-- Facebook Icon -->
+              <a href="#" class="hover:opacity-80 transition-opacity">
+                <img
+                  src="images/square-facebook-brands-solid.png"
+                  alt="Facebook"
+                  class="w-6 h-6 filter brightness-0 invert"
+                />
+              </a>
+              <!-- Instagram Icon -->
+              <a href="#" class="hover:opacity-80 transition-opacity">
+                <img
+                  src="images/instagram-brands-solid.png"
+                  alt="Instagram"
+                  class="w-6 h-6 filter brightness-0 invert"
+                />
+              </a>
+              <!-- YouTube Icon -->
+              <a href="#" class="hover:opacity-80 transition-opacity">
+                <img
+                  src="images/youtube-brands-solid.png"
+                  alt="YouTube"
+                  class="w-6 h-6 filter brightness-0 invert"
+                />
+              </a>
+            </div>
+          </div>
+
+          <!-- Campus Contact & Navigation Columns -->
+          <div
+            class="md:col-span-9 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 text-xs sm:text-sm"
+          >
+            <!-- Colombo -->
+            <div class="space-y-2">
+              <h4 class="font-bold text-white text-sm mb-3">Colombo</h4>
+              <p class="text-slate-300">Rajagiriya road,</p>
+              <p class="text-slate-300">Rajagiriya.</p>
+              <p class="text-slate-400 pt-1">+94 11 234 5678</p>
+              <p class="text-slate-400">+94 77 123 4567</p>
+            </div>
+
+            <!-- Kandy -->
+            <div class="space-y-2">
+              <h4 class="font-bold text-white text-sm mb-3">Kandy</h4>
+              <p class="text-slate-300">Peradeniya road,</p>
+              <p class="text-slate-300">Kandy.</p>
+              <p class="text-slate-400 pt-1">+94 81 234 5678</p>
+              <p class="text-slate-400">+94 77 987 6543</p>
+            </div>
+
+            <!-- Galle -->
+            <div class="space-y-2">
+              <h4 class="font-bold text-white text-sm mb-3">Galle</h4>
+              <p class="text-slate-300">Matara road,</p>
+              <p class="text-slate-300">Galle.</p>
+              <p class="text-slate-400 pt-1">+94 91 234 5678</p>
+              <p class="text-slate-400">+94 77 456 7890</p>
+            </div>
+
+            <!-- Academic -->
+            <div class="space-y-2">
+              <h4 class="font-bold text-white text-sm mb-3">Academic</h4>
+              <p>
+                <a
+                  href="#academics"
+                  class="text-slate-300 hover:text-white transition-colors"
+                  >Academics</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#transportation"
+                  class="text-slate-300 hover:text-white transition-colors"
+                  >Transportation</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#facilities"
+                  class="text-slate-300 hover:text-white transition-colors"
+                  >Facilities</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#"
+                  class="text-slate-300 hover:text-white transition-colors"
+                  >Sports & Clubs</a
+                >
+              </p>
+            </div>
+
+            <!-- Admissions -->
+            <div class="space-y-2">
+              <h4 class="font-bold text-white text-sm mb-3">Admissions</h4>
+              <p>
+                <a
+                  href="#"
+                  class="text-slate-300 hover:text-white transition-colors"
+                  >How to Apply</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#"
+                  class="text-slate-300 hover:text-white transition-colors"
+                  >Application Form</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#"
+                  class="text-slate-300 hover:text-white transition-colors"
+                  >Fees Structure</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#"
+                  class="text-slate-300 hover:text-white transition-colors"
+                  >Scholarships</a
+                >
+              </p>
+            </div>
+
+            <!-- School -->
+            <div class="space-y-2">
+              <h4 class="font-bold text-white text-sm mb-3">School</h4>
+              <p>
+                <a
+                  href="#history"
+                  class="text-slate-300 hover:text-white transition-colors"
+                  >History</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#about"
+                  class="text-slate-300 hover:text-white transition-colors"
+                  >Governance</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#"
+                  class="text-slate-300 hover:text-white transition-colors"
+                  >Staff Directory</a
+                >
+              </p>
+              <p>
+                <a
+                  href="#contact"
+                  class="text-slate-300 hover:text-white transition-colors"
+                  >Contact Us</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Yellow Copyright Bar -->
+      <div class="bg-royalsGold py-3 text-center">
+        <p class="text-black font-extrabold text-xs tracking-wider uppercase">
+          royals college. All right reserved - 2026
+        </p>
+      </div>
+    </footer>
+
+    <!-- ==================== ENROLLMENT MODAL ==================== -->
+    <div
+      id="enroll-modal"
+      class="fixed inset-0 bg-slate-900/70 backdrop-blur-sm z-50 hidden items-center justify-center p-4"
+    >
+      <div
+        class="bg-white rounded-2xl max-w-md w-full p-6 sm:p-8 shadow-2xl relative space-y-6 border border-slate-100 animate-in fade-in zoom-in duration-300"
+      >
+        <button
+          id="close-modal"
+          class="absolute top-4 right-4 text-slate-400 hover:text-slate-700"
+        >
+          <i class="fa-solid fa-xmark text-xl"></i>
+        </button>
+
+        <div class="text-center space-y-2">
+          <img
+            src="images/royalsLogo.jpg"
+            alt="Royals Logo"
+            class="h-12 mx-auto object-contain"
+          />
+          <h3 class="text-xl font-extrabold text-royalsDarkHeading">
+            Admissions Inquiry
+          </h3>
+          <p class="text-xs text-slate-500">
+            Fill out your details to begin your journey at Royals College.
+          </p>
+        </div>
+
+        <form
+          onsubmit="
+            event.preventDefault();
+            alert(
+              'Thank you for inquiring! Our admissions team will contact you shortly.',
+            );
+            document.getElementById('enroll-modal').classList.add('hidden');
+          "
+          class="space-y-4"
+        >
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1"
+              >Student Full Name</label
+            >
+            <input
+              type="text"
+              required
+              placeholder="Enter student name"
+              class="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-royalsNavy"
+            />
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1"
+              >Parent / Guardian Email</label
+            >
+            <input
+              type="email"
+              required
+              placeholder="name@example.com"
+              class="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-royalsNavy"
+            />
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1"
+              >Phone Number</label
+            >
+            <input
+              type="tel"
+              required
+              placeholder="+94 7X XXX XXXX"
+              class="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-royalsNavy"
+            />
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1"
+              >Grade / Level</label
+            >
+            <select
+              class="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-royalsNavy"
+            >
+              <option>Primary School (Age 6 - 10)</option>
+              <option>Junior Secondary (Age 11 - 13)</option>
+              <option>Senior Secondary (Age 14 - 18)</option>
+            </select>
+          </div>
+          <button
+            type="submit"
+            class="w-full bg-royalsNavy hover:bg-slate-800 text-white font-bold py-3 rounded-lg text-sm shadow transition"
+          >
+            Submit Application Inquiry
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+  </body>
+</html>
